@@ -323,44 +323,44 @@ for n in np.arange(z_carrier[0:b_size].size):
     event_marker="o"
     event_marker_even=event_marker
     event_marker_odd='+'
-    size=(13)*3
+    size=(13)*3.5
     ax.scatter(z_carrier_alpha[n],z_carrier_beta[n],np.log(np.abs(z_carrier[n])),color=hsvwheel(symbol[n-7]),s=size,marker=event_marker_odd)
-    #plt.savefig('/content/drive/MyDrive/out_primes_entangled/np_A_%d.png' % n)
+    
     ax.scatter((+1)*z_carrier_alpha[n],(-1)*z_carrier_beta[n],np.log(np.abs(z_carrier[n])),color=hsvwheel(symbol[n-6]),s=size,marker=event_marker)
-    #plt.savefig('/content/drive/MyDrive/out_primes_entangled/np_B_%d.png' % n)
+    
     ax.scatter((-1)*z_carrier_alpha[n],(+1)*z_carrier_beta[n],np.log(np.abs(z_carrier[n])),color=hsvwheel(symbol[n-5]),s=size,marker=event_marker_odd)
-    #plt.savefig('/content/drive/MyDrive/out_primes_entangled/np_C_%d.png' % n)
+    
     ax.scatter((-1)*z_carrier_alpha[n],(-1)*z_carrier_beta[n],np.log(np.abs(z_carrier[n])),color=hsvwheel(symbol[n-4]),s=size,marker=event_marker)
-    #plt.savefig('/content/drive/MyDrive/out_primes_entangled/np_D_%d.png' % n)
+    
     ax.scatter(z_carrier_beta[n],z_carrier_alpha[n],np.log(np.abs(z_carrier[n])),color=hsvwheel(symbol[n-3]),s=size,marker=event_marker_odd)
-    #plt.savefig('/content/drive/MyDrive/out_primes_entangled/np_E_%d.png' % n)
+    
     ax.scatter((+1)*z_carrier_beta[n],(-1)*z_carrier_alpha[n],np.log(np.abs(z_carrier[n])),color=hsvwheel(symbol[n-2]),s=size,marker=event_marker)
-    #plt.savefig('/content/drive/MyDrive/out_primes_entangled/np_F_%d.png' % n)
+    
     ax.scatter((-1)*z_carrier_beta[n],(+1)*z_carrier_alpha[n],np.log(np.abs(z_carrier[n])),color=hsvwheel(symbol[n-1]),s=size,marker=event_marker_odd)
-    #plt.savefig('/content/drive/MyDrive/out_primes_entangled/np_G_%d.png' % n)
-    ax.scatter((-1)*z_carrier_beta[n],(-1)*z_carrier_alpha[n],np.log(np.abs(z_carrier[n])),color=hsvwheel(symbol[n-0]),s=2*size,marker='*')
-    #plt.savefig('/content/drive/MyDrive/out_primes_entangled/prime_H_%d.png' % n)
+    
+    ax.scatter((-1)*z_carrier_beta[n],(-1)*z_carrier_alpha[n],np.log(np.abs(z_carrier[n])),color=hsvwheel(symbol[n-0]),s=2.5*size,marker='*')
+    
   else:
     event_marker="*"
     size=6
     event_marker_even='+'
     event_marker_odd='d'
     ax.scatter(z_carrier_alpha[n],z_carrier_beta[n],np.log(np.abs(z_carrier[n])),color=hsvwheel(symbol[n-7]),s=size,marker=event_marker_odd)
-    #plt.savefig('/content/drive/MyDrive/out_primes_entangled/np_A_%d.png' % n)
+    
     ax.scatter((+1)*z_carrier_alpha[n],(-1)*z_carrier_beta[n],np.log(np.abs(z_carrier[n])),color=hsvwheel(symbol[n-6]),s=size,marker=event_marker_even)
-    #plt.savefig('/content/drive/MyDrive/out_primes_entangled/np_B_%d.png' % n)
+    
     ax.scatter((-1)*z_carrier_alpha[n],(+1)*z_carrier_beta[n],np.log(np.abs(z_carrier[n])),color=hsvwheel(symbol[n-5]),s=size,marker=event_marker_odd)
-    #plt.savefig('/content/drive/MyDrive/out_primes_entangled/np_C_%d.png' % n)
+    
     ax.scatter((-1)*z_carrier_alpha[n],(-1)*z_carrier_beta[n],np.log(np.abs(z_carrier[n])),color=hsvwheel(symbol[n-4]),s=size,marker=event_marker_even)
-    #plt.savefig('/content/drive/MyDrive/out_primes_entangled/np_D_%d.png' % n)
+    
     ax.scatter(z_carrier_beta[n],z_carrier_alpha[n],np.log(np.abs(z_carrier[n])),color=hsvwheel(symbol[n-3]),s=size,marker=event_marker_odd)
-    #plt.savefig('/content/drive/MyDrive/out_primes_entangled/np_E_%d.png' % n)
+    
     ax.scatter((+1)*z_carrier_beta[n],(-1)*z_carrier_alpha[n],np.log(np.abs(z_carrier[n])),color=hsvwheel(symbol[n-2]),s=size,marker=event_marker_even)
-    #plt.savefig('/content/drive/MyDrive/out_primes_entangled/np_F_%d.png' % n)
+    
     ax.scatter((-1)*z_carrier_beta[n],(+1)*z_carrier_alpha[n],np.log(np.abs(z_carrier[n])),color=hsvwheel(symbol[n-1]),s=size,marker=event_marker_odd)
-    #plt.savefig('/content/drive/MyDrive/out_primes_entangled/np_G_%d.png' % n)
-    ax.scatter((-1)*z_carrier_beta[n],(-1)*z_carrier_alpha[n],np.log(np.abs(z_carrier[n])),color=hsvwheel(symbol[n-0]),s=0.33*size,marker=event_marker)
-    #plt.savefig('/content/drive/MyDrive/out_primes_entangled/np_H_%d.png' % n)
+    
+    ax.scatter((-1)*z_carrier_beta[n],(-1)*z_carrier_alpha[n],np.log(np.abs(z_carrier[n])),color=hsvwheel(symbol[n-0]),s=0.2*size,marker=event_marker)
+    
 
    
   #append current plot to ims
