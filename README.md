@@ -1,5 +1,11 @@
 # Introduction 
+
+
 ![](primes_entangled_big.svg)
+
+Video: 
+
+https://www.youtube.com/watch?v=tzrLZQ69ZE
 
 We have $n=[0,1,2,3,···,N-1]$ as de discrete time index for $S[n]=S_n$:
 
