@@ -1,7 +1,7 @@
 # Introduction 
 
-
-![](primes_entangled_big.svg)
+![](/cool_3d_views/4D_entangled_flower_up_2.png)
+![](/cool_3d_views/4D_entangled_flower_down_2.png)
 
 Video: 
 
