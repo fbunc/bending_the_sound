@@ -1,4 +1,6 @@
 # Introduction 
+![](primes_entangled_big.svg)
+
 We have $n=[0,1,2,3,···,N-1]$ as de discrete time index for $S[n]=S_n$:
 
 $$ \theta = e^{\frac{2\pi i}{T_o}}$$
