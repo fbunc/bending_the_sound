@@ -4,8 +4,8 @@
 ![](/cool_3d_views/4D_entangled_flower_down_2.png)
 
 Video: 
+https://www.youtube.com/watch?v=tzrLZQ6y9ZE
 
-https://www.youtube.com/watch?v=tzrLZQ69ZE
 
 We have $n=[0,1,2,3,···,N-1]$ as de discrete time index for $S[n]=S_n$:
 
